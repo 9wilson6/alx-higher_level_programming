@@ -7,6 +7,8 @@ class Square:
     '''
     size - integer instance attribute
     '''
+
+
     def __init__(self, size=0):
         '''
         size - private instance attribute
@@ -21,9 +23,9 @@ class Square:
         self.__size = size
 
         def area(self):
-
             '''
             Public object method
             returns - current square area
+
             '''
             return self.__size**2
