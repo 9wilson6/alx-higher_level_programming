@@ -18,6 +18,7 @@ class Rectangle:
     def width(self):
         """ Retrieving private attribute value"""
         return self.__width
+
     @width.setter
     def width(self, value):
         """ Sets width private attribute value """
@@ -33,6 +34,7 @@ class Rectangle:
     def height(self):
         """ Get height private attribute value"""
         return self.__height
+
     @height.setter
     def height(self, value):
         """ Set height private attribute value"""
@@ -41,14 +43,15 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
+        
     def __str__(self):
-         total = ""
-         if self.__height == 0 or self.width == 0:
-             return total
-         for i in range(self.__height):
-             total += ("#" * self.__width)
-             if i is not self.__height - 1:
-                 total += "\n"
+        total = ""
+        if self.__height == 0 or self.width == 0:
+            return total
+        for i in range(self.__height):
+            total += ("#" * self.__width)
+            if i is not self.__height - 1:
+                total += "\n"
         return total
     def __repr__(self):
         return f"Rectangle({self.__width}, {self.__height})"
