@@ -1,8 +1,12 @@
 #!/usr/bin/python3
-"""Simple Class
+"""
+
+Simple Class
 Creating an empty class that defines a Rectangle
+
+
 """
 
 class Rectangle:
-    """ Empty class """
+    """Empty class"""
     pass
