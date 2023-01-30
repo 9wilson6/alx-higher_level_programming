@@ -61,7 +61,7 @@ class Rectangle:
         Rectangle.number_of_instances -= 1
     def area(self):
         """ Public Object method - returns current rectangle perimeter"""
-        return self.__width * self.
+        return self.__width * self.__height
     def perimeter(self):
         """ public object method - returns current rectangle perimeter"""
         if self.width == 0 or self.height == 0:
