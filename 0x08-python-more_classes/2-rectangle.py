@@ -11,11 +11,12 @@ class Rectangle:
         """ Object constructor method"""
         self.width = width
         self.height = height
+
     # instance of width
     @property
     def width(self):
         """ Retrieving private attribute value"""
-        return self.
+        return self.__width
 
     @width.setter
     def width(self, value):
