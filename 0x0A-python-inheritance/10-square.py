@@ -9,7 +9,7 @@ Rectangle = __import__('9-rectangle').Rectangle
 class Square(Rectangle):
 
     """ Square inheriting from Rectangle"""
-    def __init__(self):
+    def __init__(self, size):
         """ Initializing instance with args: wdth and height of rectangle """
 
         self.integer_validator("size", size)
