@@ -24,8 +24,8 @@ class Student:
                     my_dict.update({x: self.__dict__[x]})
             return my_dict
         return self.__dict__.copy()
-        def reload_from_json(self, json):
-            """ replace all attributes of Student instance """
+    def reload_from_json(self, json):
+        """ replace all attributes of Student instance """
 
-             for x in json:
-                 self.__dict__.update({x: json[x]})
+        for x in json:
+            self.__dict__.update({x: json[x]})
