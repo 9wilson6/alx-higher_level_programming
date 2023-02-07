@@ -2,6 +2,7 @@
 
 '''
 Module - class inheriting list class
+
 '''
 class MyList(list):
     """ inheriting from list """
