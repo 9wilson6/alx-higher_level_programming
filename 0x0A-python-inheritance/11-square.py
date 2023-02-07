@@ -8,14 +8,14 @@ class Square(Rectangle):
 
     """ Square inheriting from Rectangle"""
 
-    def __init__(self, size):
+    def __init__(self):
         """ Initializing instance with args: wdth and height of rectangle """
 
         self.integer_validator("size", size)
         super().__init__size(size, size)
         self.__size = size
 
-    def __str__(self, size)
+    def __str__(self)
         """ Returns a formatted string """
 
         return str("[Square] {}/{}".format(self.__size, self.__size))
